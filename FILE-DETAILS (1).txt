@@ -1,0 +1,43 @@
+TYPE OF THE FILE
+-	:	REGULAR FILE
+d	:	DIRECTORY
+c	:	CHARACTER FILE
+b	:	BLOCKED FILE
+|	:	PIPE FILE
+=============================================
+PERMISSIONS: 
+
+r	:	read		:	4
+w	:	write		:	2
+x	:	execute	:	1
+-	:	nothing 	:	0
+
+user:	rw-	:	4+2+0=6
+
+group: r--	:	4+0+0=4
+
+others: r--	:	4+0+0=4
+=====================
+644
+================
+
+ACL: Access Control List
+
+ 1 
+================================
+owners:
+
+user:	root 
+group:	root 
+===============================
+No of characters in a file:
+
+ 0
+==========================
+FILE CREATION DETAILS
+
+ Oct 18 08:30
+=======================
+FILE NAME:
+
+ devops
